@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    background-image: url(back2.gif);
+}
+header {
+    background: #020617;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 { color: #38bdf8; }
+
+nav a {
+    color: #e2e8f0;
+    margin-left: 20px;
+    text-decoration: none;
+}
+nav a:hover { color: #38bdf8; }
+
+.container {
+    padding: 40px;
+}
+
+.grid {
+    display: grid;
+    gap: 10px;
+}
+
+.card {
+    background: #020617;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.3s;
+    
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #38bdf8;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+    color: #64748b;
+    
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Paniki Gadgets</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="news.html">News</a>
+        <a href="cybersecurity.html">Cybersecurity</a>
+        <a href="guide.html">Guides</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="container">
+    <h2>Our Products</h2>
+
+    <div class="grid">
+        <div class="card">
+            <a href="smartphones.html">Smartphones</a>
+            
+        </div>
+        <div class="card">
+            <a href="laptops.html">Laptops</a>
+        </div>
+        <div class="card">
+            <a href="tablets.html">Tablets</a>
+        </div>
+        <div class="card">
+            <a href="accessories.html">Accessories</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>Justin Bumatay • Jonathan Maristela • Lance Allen Dela Cruz. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

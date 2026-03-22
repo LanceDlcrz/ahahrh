@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gadgets | Paniki Gadgets</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+        }
+
+        header {
+            background: #020617;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        header h1 {
+            color: #38bdf8;
+        }
+
+        nav a {
+            color: #e2e8f0;
+            margin-left: 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: #020617;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            color: #38bdf8;
+        }
+
+        .container {
+            padding: 40px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #020617;
+            padding: 20px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card h3 {
+            color: #38bdf8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #020617;
+            color: #64748b;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Paniki Gadgets</h1>
+    <nav>
+          <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="news.html">News</a>
+        <a href="cybersecurity.html">Cybersecurity</a>
+        <a href="guide.html">Guides</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>📱 Latest Gadgets</h2>
+    <p>Explore the newest and most innovative tech gadgets.</p>
+</section>
+
+<section class="container">
+
+    <h2>Featured Gadgets</h2>
+
+    <div class="grid">
+        <div class="card">
+            <h3>Smartphones</h3>
+            <p>Latest models with powerful processors and high-quality cameras.</p>
+        </div>
+
+        <div class="card">
+            <h3>Laptops</h3>
+            <p>Perfect for work, gaming, and everyday use.</p>
+        </div>
+
+        <div class="card">
+            <h3>Wearables</h3>
+            <p>Smartwatches and fitness trackers for a smarter lifestyle.</p>
+        </div>
+
+        <div class="card">
+            <h3>Smart Home</h3>
+            <p>Automate your home with smart devices and assistants.</p>
+        </div>
+    </div>
+
+    <div class="card" style="margin-top: 30px;">
+        <h3>Why Choose Modern Gadgets?</h3>
+        <p>Modern gadgets improve productivity, entertainment, and connectivity, making everyday life more efficient and enjoyable.</p>
+    </div>
+
+</section>
+
+<footer>
+    <p>Paniki Gadgets • Latest Tech Gadgets</p>
+</footer>
+
+</body>
+</html>

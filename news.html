@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tech News</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    background-image: url(back2.gif);
+}
+header {
+    background: #020617;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 { color: #38bdf8; }
+
+nav a {
+    color: #e2e8f0;
+    margin-left: 20px;
+    text-decoration: none;
+}
+nav a:hover { color: #38bdf8; }
+
+.container {
+    padding: 40px;
+}
+
+.news-grid {
+    display: grid;
+    gap: 20px;
+}
+
+.news-card {
+    background: #020617;
+    padding: 25px;
+    border-radius: 10px;
+    transition: 0.3s;
+    text-align: left;
+}
+
+.news-card:hover {
+    transform: scale(1.03);
+    box-shadow: rgba(56, 189, 248, 0.4) 5px 5px,
+                rgba(56, 189, 248, 0.3) 10px 10px,
+                rgba(56, 189, 248, 0.2) 15px 15px;
+}
+
+.news-card h3 {
+    color: #38bdf8;
+    margin-bottom: 10px;
+}
+
+.news-card p {
+    color: #cbd5f5;
+}
+
+.news-card span {
+    font-size: 12px;
+    color: #64748b;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+    color: #64748b;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Paniki Gadgets</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="news.html">News</a>
+        <a href="cybersecurity.html">Cybersecurity</a>
+        <a href="guide.html">Guides</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="container">
+    <h2>Latest Tech News</h2>
+
+    <div class="news-grid">
+
+        <div class="news-card">
+           <a style="text-decoration: none;" href="news1.html"> <h3>New AI Technology Changing Smartphones</h3>
+            <span>March 2026</span>
+            <p>
+                Tech companies are integrating advanced AI into smartphones,
+                making devices smarter, faster, and more personalized than ever before.
+            </p>
+            </a>
+        </div>
+
+        <div class="news-card">
+          <a style="text-decoration: none;" href="news2.html"> <h3>Foldable Laptops Are Becoming Popular</h3>
+            <span>March 2026</span>
+            <p>
+                Major brands are releasing foldable laptops with flexible screens,
+                offering portability and powerful performance in one device.
+            </p></a>
+        </div>
+
+        <div class="news-card">
+            <a style="text-decoration: none;" href="news3.html"><h3>5G Expansion Continues Worldwide</h3>
+            <span>March 2026</span>
+            <p>
+                The global rollout of 5G networks is improving internet speeds,
+                enabling better gaming, streaming, and smart device connectivity.
+            </p></a>
+        </div>
+
+        <div class="news-card">
+           <a style="text-decoration: none;" href="news4.html"><h3>Smartwatches Getting Health Upgrades</h3>
+            <span>March 2026</span>
+            <p>
+                New smartwatches now include advanced health tracking features
+                such as blood pressure monitoring and improved sleep analysis.
+            </p></a>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>Justin Bumatay • Jonathan Maristela • Lance Allen Dela Cruz. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

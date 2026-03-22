@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    background-image: url(back3.gif);
+}
+
+header {
+    background: #020617;
+    padding: 15px 40px;
+    text-align: center;
+}
+
+header h1 {
+    color: #38bdf8;
+}
+
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.box {
+    background: #020617;
+    padding: 30px 20px;
+    border-radius: 10px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    color: #38bdf8;
+    margin-bottom: 25px;
+}
+
+input, textarea {
+    width: 80%;
+    max-width: 500px;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background: #0f172a;
+    color: white;
+    font-size: 1em;
+}
+
+button {
+    width: 50%;
+    min-width: 150px;
+    padding: 12px;
+    background: #38bdf8;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #0ea5e9;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #020617;
+    color: #64748b;
+    margin-top: 40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Paniki Gadgets</h1>
+</header>
+
+<div class="container">
+
+    <div class="box">
+        <h2>Contact Us</h2>
+
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+
+        <button onclick="sendMessage()">Send Message</button>
+    </div>
+
+</div>
+
+<footer>
+    <p>Justin Bumatay • Jonathan Maristela • Lance Allen Dela Cruz. All rights reserved.</p>
+</footer>
+
+<script>
+function sendMessage() {
+    alert("✅ Message sent!");
+}
+</script>
+
+</body>
+</html>
